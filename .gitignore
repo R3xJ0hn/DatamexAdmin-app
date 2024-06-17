@@ -18,4 +18,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-\resources\views\school-template
+/resources/views/school-template
