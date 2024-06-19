@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->enum('role',['admin','student','teacher','registrar','guest']) -> default('guest');
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('avatar_path')->default('/uploads/user-default.jpg');
+            $table->string('avatar_path')->default('/assets/img/user-default.jpg');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
